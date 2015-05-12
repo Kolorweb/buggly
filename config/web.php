@@ -6,6 +6,17 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+
+
+// yii 2.0 user registration
+    'modules' => [
+    'user' => [
+        'class' => 'dektrium\user\Module',
+    ],
+],
+
+
+
     'components' => [
 
         'urlManager' => [
@@ -24,10 +35,10 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
-        'user' => [
-            'identityClass' => 'app\models\User',
-            'enableAutoLogin' => true,
-        ],
+        // 'user' => [
+        //     'identityClass' => 'app\models\User',
+        //     'enableAutoLogin' => true,
+        // ],
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
