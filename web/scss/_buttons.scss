@@ -1,0 +1,21 @@
+.btn {
+	background-color: $bugg-main;
+	border: none;
+	border-radius: 2px;
+
+	&:hover {
+		background-color: darken( $bugg-main, 5% );
+		transform: scale(1.1);
+		transition: all .1s ease-in;
+	}
+}
+
+.btn-danger {
+	background-color: $btn-red;
+
+	&:hover {
+		background-color: darken( $btn-red, 5% );
+		transform: scale(1.1);
+		transition: all .1s ease-in;
+	}
+}

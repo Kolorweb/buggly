@@ -1,0 +1,41 @@
+
+.bugs-index {
+	max-width: 100%;
+	padding: 70px 20px 0 220px;
+
+
+
+	h1 {
+		font-size: 32px;
+		margin-bottom: 50px;
+		color: $bugg-main;
+	}
+
+}
+
+
+
+tr {
+	color: $bugg-main;
+
+
+}
+
+th {
+	font-size: 16px;
+	font-weight: 400;
+
+	a {
+		color: $bugg-main;
+
+		&:hover {
+			color: $bugg-accent;
+		}
+	}
+
+}
+
+td {
+	color: #757575;
+	font-weight: 300;
+}

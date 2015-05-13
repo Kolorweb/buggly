@@ -1,0 +1,54 @@
+.other-tools-menu {
+	width: 200px;
+	height: 100vh;
+	background-color: $menu-grey;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	padding-top: 80px;
+	border-right: 1px solid darken($menu-grey, 4%);
+
+}
+
+.user {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	span {
+		font-size: 14px;
+		font-weight: 300;
+		color: darken($menu-grey, 40%);
+
+	}
+}
+
+.user-image {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-bottom: 5px;
+	background: url("../../web/assets/img/user-01.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid darken($menu-grey, 10%);
+
+
+}
+
+.user-menu-nav {
+	list-style: none;
+	text-decoration: none;
+	padding-left: 0;
+	padding-top: 20px;
+
+	li {
+		margin-bottom: 4px;
+	
+	}
+
+	li a {
+	color: $bugg-main;
+
+	}
+}
