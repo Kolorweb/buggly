@@ -36,7 +36,7 @@ AppAsset::register($this);
                     ['label' => 'Home', 'url' => ['/site/index']],
                     // ['label' => 'Status', 'url' => ['/status/index']],
                     ['label' => 'About', 'url' => ['/site/about']],
-                    ['label' => 'Contact', 'url' => ['/site/contact']]
+                    // ['label' => 'Menu', 'url' => ['/site/menu']]
                   ];
                   if (Yii::$app->user->isGuest) {
                     array_push($navItems,['label' => 'Sign In', 'url' => ['/user/login']],['label' => 'Sign Up', 'url' => ['/user/register']]);
@@ -52,6 +52,32 @@ AppAsset::register($this);
                 ]);
             NavBar::end();
         ?>
+
+        <!-- =================
+
+        User menu | NOTE: need to find a way of @include or if/else statement to only show on certain pages
+
+        ================== -->
+
+        <div class="other-tools-menu">
+
+             <div class="user">
+
+                <div class="user-image"></div>
+                <span>Jhon Doe</span>
+
+                 <ul class="user-menu-nav">
+                    <li><a href="/web/projects">My Projects</a></li>
+                    <li><a href="/web/clients">Clients</a></li>
+                    <li><a href="/web/bugs">Bugs</a></li>
+                    <li class="coming-soon">My Team</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
 
         <div>
             <?= Breadcrumbs::widget([

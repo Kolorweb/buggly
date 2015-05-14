@@ -123,6 +123,7 @@ class Application extends \yii\base\Application
         $this->_homeUrl = $value;
     }
 
+
     /**
      * Returns the session component.
      * @return Session the session component.

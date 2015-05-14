@@ -222,7 +222,7 @@ td {
 
 .projects-view {
   max-width: 100%;
-  padding: 70px 20px 0 220px; }
+  padding: 100px 20px 0 220px; }
   .projects-view h1 {
     font-size: 32px;
     margin-bottom: 50px;
@@ -294,7 +294,7 @@ th {
 
 .clients-index {
   max-width: 100%;
-  padding: 70px 20px 0 220px; }
+  padding: 100px 20px 0 220px; }
   .clients-index h1 {
     font-size: 32px;
     margin-bottom: 50px;
@@ -317,7 +317,7 @@ td {
 
 .clients-create {
   max-width: 100%;
-  padding: 70px 20px 0 220px; }
+  padding: 100px 20px 0 220px; }
   .clients-create h1 {
     font-size: 32px;
     margin-bottom: 50px;
@@ -340,7 +340,7 @@ td {
 
 .projects-update {
   max-width: 100%;
-  padding: 70px 20px 0 220px; }
+  padding: 100px 20px 0 220px; }
   .projects-update h1 {
     font-size: 32px;
     margin-bottom: 50px;
@@ -352,7 +352,7 @@ th {
 
 .bugs-index {
   max-width: 100%;
-  padding: 70px 20px 0 220px; }
+  padding: 100px 20px 0 220px; }
   .bugs-index h1 {
     font-size: 32px;
     margin-bottom: 50px;
@@ -373,6 +373,46 @@ td {
   color: #757575;
   font-weight: 300; }
 
+.bugs-create {
+  max-width: 100%;
+  padding: 100px 20px 0 220px; }
+  .bugs-create h1 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #24b89a; }
+
+tr {
+  color: #24b89a; }
+
+th {
+  font-size: 16px;
+  font-weight: 400; }
+  th a {
+    color: #24b89a; }
+    th a:hover {
+      color: #e03694; }
+
+td {
+  color: #757575;
+  font-weight: 300; }
+
+.bugs-view {
+  max-width: 100%;
+  padding: 100px 20px 0 220px; }
+  .bugs-view h1 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #24b89a; }
+
+th {
+  width: 140px;
+  font-size: 14px; }
+
+.project-view-controls {
+  float: right; }
+  .project-view-controls a:not(:last-child) {
+    margin-right: 8px; }
+
 .wrap {
   padding-top: 50px;
   padding: 0; }
@@ -385,3 +425,6 @@ td {
   font-size: 12px; }
   .breadcrumb a {
     color: #24b89a; }
+
+.coming-soon {
+  opacity: 0.2; }

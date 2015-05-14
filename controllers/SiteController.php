@@ -89,6 +89,11 @@ class SiteController extends Controller
         }
     }
 
+    // public function actionMenu()
+    // {
+    //     return $this->render('menu');
+    // }
+
     public function actionAbout()
     {
         return $this->render('about');

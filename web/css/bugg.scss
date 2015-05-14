@@ -12,6 +12,8 @@
 @import "../scss/clients-create.scss";
 @import "../scss/projects-update.scss";
 @import "../scss/bugs-index.scss";
+@import "../scss/bugs-create.scss";
+@import "../scss/bugs-view.scss";
 
 
 
@@ -34,4 +36,7 @@
 	
 }
 
+.coming-soon {
+	opacity: 0.2;
+}
 

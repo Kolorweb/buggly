@@ -1,0 +1,47 @@
+<?php
+
+use yii\helpers\Html;
+use yii\grid\GridView;
+
+/* @var $this yii\web\View */
+/* @var $searchModel app\models\ProjectsSearch */
+/* @var $dataProvider yii\data\ActiveDataProvider */
+
+$this->title = 'Projects';
+$this->params['breadcrumbs'][] = $this->title;
+?>
+
+
+
+
+<div class="projects-index">
+
+    <h1><?= Html::encode($this->title) ?></h1>
+    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+
+    <p>
+        <?= Html::a('+ New Project', ['create'], ['class' => 'btn btn-success']) ?>
+        
+    </p>
+
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        // 'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+
+            'project_id',
+            'project_name',
+            'project_description:ntext',
+            'project_client',
+            'project_startdate',
+            'project_enddate',
+            // 'user_id',
+            // 'client_id',
+            // 'bugs_id',
+
+            ['class' => 'yii\grid\ActionColumn'],
+        ],
+    ]); ?>
+
+</div>

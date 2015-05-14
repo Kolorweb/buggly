@@ -15,6 +15,7 @@ $this->title = 'About';
 		<p>bugg.ly is a free to use, open source bug tracking platform aimed at developers. </p>
 	</div>
 
+
 	
 
 

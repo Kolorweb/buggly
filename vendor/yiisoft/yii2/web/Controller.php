@@ -161,6 +161,12 @@ class Controller extends \yii\base\Controller
     public function goHome()
     {
         return Yii::$app->getResponse()->redirect(Yii::$app->getHomeUrl());
+
+    }
+
+     public function goProjects()
+    {
+        return Yii::$app->getResponse()->redirect(Yii::$app->getProjectUrl());
     }
 
     /**
