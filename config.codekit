@@ -85,6 +85,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/controllers\/ProjectController.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/ProjectController.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/controllers\/ProjectsController.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -31444,56 +31453,56 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/views\/projects\/_form.php": {
+	"\/views\/project\/_form.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/views\/projects\/_form.php",
+		"inputAbbreviatedPath": "\/views\/project\/_form.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/views\/projects\/_search.php": {
+	"\/views\/project\/_search.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/views\/projects\/_search.php",
+		"inputAbbreviatedPath": "\/views\/project\/_search.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/views\/projects\/create.php": {
+	"\/views\/project\/create.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/views\/projects\/create.php",
+		"inputAbbreviatedPath": "\/views\/project\/create.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/views\/projects\/index.php": {
+	"\/views\/project\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/views\/projects\/index.php",
+		"inputAbbreviatedPath": "\/views\/project\/index.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/views\/projects\/update.php": {
+	"\/views\/project\/update.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/views\/projects\/update.php",
+		"inputAbbreviatedPath": "\/views\/project\/update.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/views\/projects\/view.php": {
+	"\/views\/project\/view.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/views\/projects\/view.php",
+		"inputAbbreviatedPath": "\/views\/project\/view.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -32151,6 +32160,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/web\/scss\/_clients-create.scss",
 		"outputAbbreviatedPath": "\/web\/css\/_clients-create.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/web\/scss\/_clients-view.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/web\/scss\/_clients-view.scss",
+		"outputAbbreviatedPath": "\/web\/css\/_clients-view.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

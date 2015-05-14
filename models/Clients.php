@@ -13,8 +13,7 @@ use Yii;
  * @property integer $client_phone
  * @property integer $user_id
  *
- * @property User $user
- * @property Projects $projects
+ * @property Projects[] $projects
  */
 class Clients extends \yii\db\ActiveRecord
 {
@@ -55,16 +54,8 @@ class Clients extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getUser()
-    {
-        return $this->hasOne(User::className(), ['id' => 'user_id']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
     public function getProjects()
     {
-        return $this->hasOne(Projects::className(), ['project_id' => 'client_id']);
+        return $this->hasMany(Projects::className(), ['client_id' => 'client_id']);
     }
 }

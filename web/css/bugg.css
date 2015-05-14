@@ -178,6 +178,10 @@ sup {
   display: flex;
   flex-direction: column; }
 
+#registration-form {
+  display: flex;
+  flex-direction: column; }
+
 .projects-index {
   max-width: 100%;
   padding: 100px 20px 0 220px; }
@@ -400,6 +404,23 @@ td {
   max-width: 100%;
   padding: 100px 20px 0 220px; }
   .bugs-view h1 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #24b89a; }
+
+th {
+  width: 140px;
+  font-size: 14px; }
+
+.project-view-controls {
+  float: right; }
+  .project-view-controls a:not(:last-child) {
+    margin-right: 8px; }
+
+.clients-view {
+  max-width: 100%;
+  padding: 100px 20px 0 220px; }
+  .clients-view h1 {
     font-size: 32px;
     margin-bottom: 50px;
     color: #24b89a; }

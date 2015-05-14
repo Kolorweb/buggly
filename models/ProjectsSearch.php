@@ -18,7 +18,7 @@ class ProjectsSearch extends Projects
     public function rules()
     {
         return [
-            [['project_id', 'user_id', 'bugs_id'], 'integer'],
+            [['project_id', 'user_id', 'client_id'], 'integer'],
             [['project_name', 'project_description', 'project_client', 'project_startdate', 'project_enddate'], 'safe'],
         ];
     }
@@ -60,7 +60,7 @@ class ProjectsSearch extends Projects
             'project_startdate' => $this->project_startdate,
             'project_enddate' => $this->project_enddate,
             'user_id' => $this->user_id,
-            'bugs_id' => $this->bugs_id,
+            'client_id' => $this->client_id,
         ]);
 
         $query->andFilterWhere(['like', 'project_name', $this->project_name])

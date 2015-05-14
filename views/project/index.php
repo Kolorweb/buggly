@@ -32,7 +32,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'project_startdate',
             // 'project_enddate',
             // 'user_id',
-            // 'bugs_id',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

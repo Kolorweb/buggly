@@ -10,35 +10,29 @@ use yii\grid\GridView;
 $this->title = 'Projects';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-
-
-
-
 <div class="projects-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('+ New Project', ['create'], ['class' => 'btn btn-success']) ?>
-        
+        <?= Html::a('Create Projects', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
-        // 'filterModel' => $searchModel,
+        'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
             'project_id',
             'project_name',
             'project_description:ntext',
-            'project_client',
+            'project_client:ntext',
             'project_startdate',
-            'project_enddate',
+            // 'project_enddate',
             // 'user_id',
             // 'client_id',
-            // 'bugs_id',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

@@ -14,11 +14,11 @@ use Yii;
  * @property string $project_startdate
  * @property string $project_enddate
  * @property integer $user_id
- * @property integer $bugs_id
+ * @property integer $client_id
  *
  * @property Bugs[] $bugs
+ * @property Clients $client
  * @property User $user
- * @property Clients $project
  */
 class Projects extends \yii\db\ActiveRecord
 {
@@ -36,10 +36,10 @@ class Projects extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['project_name', 'project_description', 'project_startdate', 'project_enddate', 'user_id', 'bugs_id'], 'required'],
+            [['project_name', 'project_description', 'project_startdate', 'project_enddate', 'user_id'], 'required'],
             [['project_description', 'project_client'], 'string'],
             [['project_startdate', 'project_enddate'], 'safe'],
-            [['user_id', 'bugs_id'], 'integer'],
+            [['user_id', 'client_id'], 'integer'],
             [['project_name'], 'string', 'max' => 255]
         ];
     }
@@ -57,7 +57,7 @@ class Projects extends \yii\db\ActiveRecord
             'project_startdate' => 'Project Startdate',
             'project_enddate' => 'Project Enddate',
             'user_id' => 'User ID',
-            'bugs_id' => 'Bugs ID',
+            'client_id' => 'Client ID',
         ];
     }
 
@@ -72,16 +72,16 @@ class Projects extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getUser()
+    public function getClient()
     {
-        return $this->hasOne(User::className(), ['id' => 'user_id']);
+        return $this->hasOne(Clients::className(), ['client_id' => 'client_id']);
     }
 
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getProject()
+    public function getUser()
     {
-        return $this->hasOne(Clients::className(), ['client_id' => 'project_id']);
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
 }
