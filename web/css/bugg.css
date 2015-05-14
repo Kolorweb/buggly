@@ -428,3 +428,7 @@ th {
 
 .coming-soon {
   opacity: 0.2; }
+
+.alert-info {
+  margin-top: 50px;
+  padding-left: 220px; }
