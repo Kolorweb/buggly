@@ -2,6 +2,8 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\helpers\ArrayHelper;
+use app\models\Clients;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Projects */
@@ -16,7 +18,11 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'project_description')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'project_client')->textarea(['rows' => 6]) ?>
+      <?= // Custom drop down, populated by database values
+        $form->field($model, 'project_client')->dropDownList(
+        ArrayHelper::map(Clients::find()->all(),'client_id', 'client_name'),
+        ['prompt'=>'Select Client']
+    ) ?>
 
     <?= $form->field($model, 'project_startdate')->textInput() ?>
 

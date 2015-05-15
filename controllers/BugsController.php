@@ -62,6 +62,10 @@ class BugsController extends Controller
     {
         $model = new Bugs();
 
+        //Yii::$app->projects->getId(0);
+
+       // $model->project_id = $_id;
+
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->bug_id]);
         } else {

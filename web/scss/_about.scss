@@ -7,7 +7,7 @@
 	align-items: center;
 	justify-content: center;
 	color: $text-grey;
-	padding-bottom: 10%;
+	padding-bottom: 5%;
 
 	h1 {
 		font-weight: 400;
@@ -19,7 +19,12 @@
 
 .about-logo {
 	width: 150px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
+}
+
+.small-text  {
+	font-size: 14px!important;
+	opacity: 0.6;
 }
 
 .what-is-it-container {

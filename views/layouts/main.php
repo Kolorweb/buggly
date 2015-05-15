@@ -37,6 +37,8 @@ AppAsset::register($this);
                     // ['label' => 'Status', 'url' => ['/status/index']],
                     ['label' => 'About', 'url' => ['/site/about']],
                     // ['label' => 'Menu', 'url' => ['/site/menu']]
+
+                    ['label' => 'My Dashboard', 'url' => ['/project']],
                   ];
                   if (Yii::$app->user->isGuest) {
                     array_push($navItems,['label' => 'Sign In', 'url' => ['/user/login']],['label' => 'Sign Up', 'url' => ['/user/register']]);
@@ -53,39 +55,8 @@ AppAsset::register($this);
             NavBar::end();
         ?>
 
-        <!-- =================
+       
 
-        User menu | NOTE: need to find a way of @include or if/else statement to only show on certain pages
-
-        ================== -->
-
-        <div class="other-tools-menu">
-
-             <div class="user">
-
-                <div class="user-image"></div>
-                <span>Jhon Doe</span>
-
-                 <ul class="user-menu-nav">
-
-                    <!-- LOCAL PATHS -->
-
-                    <li><a href="/web/project">My Projects</a></li>
-                    <li><a href="/web/clients">Clients</a></li>
-                    <li><a href="/web/bugs">Bugs</a></li>
-
-
-
-                    <!-- DEPLOYMENT PATHS -->
-                    <!-- <li><a href="/buggly/web/projects">My Projects</a></li>
-                    <li><a href="/buggly/web/clients">Clients</a></li>
-                    <li><a href="/buggly/web/bugs">Bugs</a></li> -->
-                    <li class="coming-soon">My Team</li>
-                </ul>
-
-            </div>
-
-        </div>
 
 
 

@@ -12,7 +12,8 @@ $this->title = 'About';
 	
 	<div class="what-is-it-container">
 		<h1>What is it?</h1>
-		<p>bugg.ly is a free to use, open source bug tracking platform aimed at developers. </p>
+		<p>bugg.ly is a free to use, open source bug tracking prototype aimed at developers. <br>
+		<p class="small-text"> Please email liamgillman@gmail.com if you would like to contribute to the project. </p>
 	</div>
 
 
