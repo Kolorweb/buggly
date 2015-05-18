@@ -23,9 +23,9 @@ $this->params['breadcrumbs'][] = 'Update';
 
                     <!-- LOCAL PATHS -->
 
-                    <li><a href="/web/project">My Projects</a></li>
-                    <li><a href="/web/clients">Clients</a></li>
-                    <li><a href="/web/bugs">Bugs</a></li>
+                   <li><a href="project">My Projects</a></li>
+                    <li><a href="clients">Clients</a></li>
+                    <li><a href="bugs">Bugs</a></li>
 
 
 
