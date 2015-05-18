@@ -15,7 +15,7 @@ $this->title = 'My Yii Application';
     </div>
 
     <div class="sign-up-button">
-        <a href="/web/user/register"><span>SIGN UP</span></a>
+        <a href="/buggly/web/user/register"><span>SIGN UP</span></a>
     </div>
 
 </div>
