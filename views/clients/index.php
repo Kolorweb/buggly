@@ -26,11 +26,11 @@ $this->params['breadcrumbs'][] = $this->title;
                     <!-- LOCAL PATHS -->
 
 
-
                     <!-- DEPLOYMENT PATHS -->
-                    <li><a href="/buggly/web/projects">My Projects</a></li>
+                    <li><a href="/buggly/web/project">My Projects</a></li>
                     <li><a href="/buggly/web/clients">Clients</a></li>
                     <li><a href="/buggly/web/bugs">Bugs</a></li>
+
                     <li class="coming-soon">My Team</li>
                 </ul>
 

@@ -21,10 +21,9 @@ $this->params['breadcrumbs'][] = 'Update';
                  <ul class="user-menu-nav">
 
                     <!-- LOCAL PATHS -->
-
-                    <li><a href="/web/project">My Projects</a></li>
-                    <li><a href="/web/clients">Clients</a></li>
-                    <li><a href="/web/bugs">Bugs</a></li>
+  <li><a href="/buggly/web/project">My Projects</a></li>
+                    <li><a href="/buggly/web/clients">Clients</a></li>
+                    <li><a href="/buggly/web/bugs">Bugs</a></li>
 
 
 
