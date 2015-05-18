@@ -21,9 +21,9 @@ $this->params['breadcrumbs'][] = $this->title;
                  <ul class="user-menu-nav">
 
                     <!-- LOCAL PATHS -->
-                     <li><a href="project">My Projects</a></li>
-                    <li><a href="clients">Clients</a></li>
-                    <li><a href="bugs">Bugs</a></li>
+                     <li><a href="/buggly/web/project">My Projects</a></li>
+                    <li><a href="/buggly/web/clients">Clients</a></li>
+                    <li><a href="/buggly/web/bugs">Bugs</a></li>
 
 
 
